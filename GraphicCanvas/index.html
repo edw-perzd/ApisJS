@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,29 +8,30 @@
         body{
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             width: 100wh;
-            height: 100vh;
+            height: 100dvh;
             display: grid;
             place-items: center;
-            background-color: rgb(22, 4, 65);
+            background-color: black;
         }
         .container{
             width: 60%;
-            color: whitesmoke;
+            color:antiquewhite;
             text-align: center;
         }
         .container h1{
             margin: 20px;
         }
         canvas{
-            background-color: black;
+            background-color: lightblue;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Canvas HTML y Javascript</h1>
+        <h2>Se ha comido <span></span></h2>
         <canvas id="canva" width="600" height="400"></canvas>
     </div>
-    <script src="./bolita.js"></script>
+    <script src="./snake.js"></script>
 </body>
 </html>
